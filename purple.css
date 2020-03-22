@@ -1,0 +1,2065 @@
+/*------------------------------------*\
+Default Theme Colours - Light
+Dark Grey: #FFF
+Primary: #602D51 - secondary menu bar, button bfae-2
+Hover: #FFF - menu bar
+
+Font: #333333
+Font Hover: #999999
+Font-Family: 'Lato', sans-serif
+Page Background: #FFF
+Footer Color: #602D51
+Header color: #FFF
+Header Font: #FFF
+Header Hover: #515151
+Company: VIDFLEX CHURCH DEMO
+Name and E-Mail Address Background: #EBEBEB
+
+\*------------------------------------*/
+
+.sg__content {
+    background-color: #FFF;
+}
+
+.sg__header {
+    background-color: #602D51;
+    color: #602D51;
+}
+
+.sg__title {
+    color:transparent;
+}
+
+.sg__title:before {
+    content: 'VIDFLEX CHURCH DEMO SITE';
+    color: #FFF;
+    text-align: center;
+}
+
+.nav-sidebar__brand:before {
+    content: 'VIDFLEX CHURCH DEMO SITE';
+    color: #FFF;
+}
+
+body {
+    color:  #2A2926;
+    background-color: #FFF;
+    font-family: 'Lato', sans-serif !important;
+}
+
+a {
+    color: #602D51;
+}
+
+a:hover {
+    color: #999999;
+}
+
+/*------------------------------------*\
+Typography
+\*------------------------------------*/
+
+/*.account-info__title h2,
+body,
+.btn-primary,
+#cd-lateral-nav a,
+.contact-form__header h2,
+footer,
+.header__date,
+#header__nav a,
+#header__nav .dropdown-menu a,
+#header__nav .flexMenu-popup li a,
+.header__logged .dropdown-menu > li > a,
+.login-form__header,
+.login-form__header__password h2,
+.manual-selected-slider__itemTitle,
+.manual-selected-slider__itemSubtitle,
+.mobile-header__date,
+.mobile-headline,
+.player-block__title h3,
+.player-block__downloads .downloads__title,
+.player-sidebar__title,
+#request-form p,
+.sorting-buttons__label,
+.sub-menu__item a,
+.TextWidget h2,
+.TextWidget h3,
+.title,
+.title-block__name, .movie-card__title.clampjs, .movie-card__text.clampjs, .movie-card__date {
+font-family: 'Open Sans', sans-serif;
+}*/
+
+#header__nav .flexMenu-popup li a {
+    text-transform: capitalize;
+}
+
+.contact-form__header h2,
+.contact-form__description,
+.episode-list__itemTitle,
+.episode-list__itemPublish,
+label.control-label.required,
+.login-form__content .link,
+.player-data__download .downloads__title,
+.series-data__desc h4, .series-data__desc p,
+.TextWidget,
+.title,
+.vodSeries {
+    color: #2A2926;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.banner-widget__title .title,
+.downloads__title,
+.episode__downloads,
+.episode__upnext,
+.episode-info__social .social__title,
+.modal-content  {
+    color: #FFF;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.mobile-headline,
+.mobile-header__date{
+    font-weight: 600;
+}
+
+.movie-card__date {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .movie-card__text,
+    .movie-card__date {
+        font-size: 14px;
+    }
+
+}
+
+
+/*------------------------------------*\
+#Buttons
+\*------------------------------------*/
+
+.btn-primary {
+    background-color: #602D51;
+    border-color: #602D51;
+    color: #FFF; 
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #7e3a6b;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+    background-color: #7e3a6b;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    background-color: #7e3a6b;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+
+.open > .dropdown-toggle.btn-default:hover,
+.open > .dropdown-toggle.btn-default:focus,
+.open > .dropdown-toggle.btn-default.focus {
+    background-color: #7e3a6b;
+    outline: none;
+    color: #7e3a6b;
+    border-color: #602D51;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
+    background-color: #7e3a6b;
+}
+
+.s4rw__header__link a {
+    background-color: #602D51 !important;
+    color: #FFF;
+}
+
+.s4rw__header__link a:hover {
+    background-color: #7e3a6b !important;
+    color: #FFF;
+}
+
+.s4rw__header__link a {
+    background-color: #602D51 !important;
+    color: #FFF;
+}
+
+
+.fw__filter_group--open .fw__filter_group__name {
+    border-bottom: 4px solid #602D51 !important;
+    position: relative;
+    padding-bottom: 12px;
+    font-weight: 700;
+    color: #666;
+}
+
+.fw__filter_group--open .fw__filter_group__name:before {
+    border-top-color: #602D51 !important;
+   
+}
+
+.fw__filter_group--selection .fw__filter_group__name:after {
+    background-color: #602D51 !important;
+   }
+
+.fw__filter_group__checkbox:checked+label:before {
+    background: #602D51 !important;
+    border-color: #602D51 !important;
+}
+
+.fw__filter_panel__apply_filter {
+  background: #602D51 !important;
+  color: #FFF;  
+}
+
+.fw__filter_panel__apply_filter--disabled {
+    background-color: #602D51 !important; 
+    color: #FFF;
+    cursor: default;
+}
+
+.fw__filter_group__checkbox:hover+label:before {
+    background: #FFF !important;
+    border-color: #FFF !important;
+}
+
+/*------------------------------------*\
+Submenu
+\*------------------------------------*/
+
+.sub-menu {
+    background-color: #fff;
+    color: #FFF;
+}
+
+.sub-menu__item a {
+    color: #fff;
+    font-family: 'Lato', sans-serif !important; 
+}
+
+.sub-menu .nav > li > a:hover {
+    color: #FFF;
+}
+
+.sub-menu__item.active a {
+    color: #602D51;
+}
+
+@media only screen and (max-width: 991px) {
+    .sub-menu__item a {
+        font-size: 16px;
+    }
+
+}
+
+.sub-menu .nav > li > a:hover, .sub-menu .nav > li > a:focus {
+    background-color: transparent;
+    color: #FFF;
+}
+
+/*------------------------------------*\
+Header
+\*------------------------------------*/
+
+
+.header {
+    background-color: #fff;
+    border-bottom: 3px solid #602D51;
+
+}
+
+#header__nav .dropdown-menu a {
+    display: block;
+    padding: 3px 10px;
+    color: #FFF;
+    font-family: 'Lato', sans-serif !important;
+    text-transform: none;
+}
+
+#header__nav a:hover {
+    color: #ccc !important;
+    font-family: 'Lato', sans-serif !important;
+    
+}
+
+#header__nav li.open > a {
+    color: #2a2926;
+}
+
+#header__nav li.active > a {
+    color: #2a2926;
+}
+
+#header__nav li.open .caret {
+    border-color: #602D51;
+}
+#header__nav li.open .caret {
+    border-color: #602D51;
+}
+
+#header__nav li.active .caret {
+    border-top: 1px solid #602D51;
+    border-right: 1px solid #602D51;
+}
+
+#header__nav .dropdown-menu {
+    padding-top: 5px;
+    padding-left: 1px;
+}
+
+#header__nav .dropdown-menu a {
+        display: block;
+    padding: 10px;
+    color: #262626;
+    font-family: 'Lato', sans-serif !important;
+    text-transform: none;
+}
+
+
+#header__nav .dropdown-menu a:hover {
+    background-color: #602D51 !important;
+    color: #FFF !important;
+
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+#header__nav a {
+    display: inline-block;
+    padding: .5em;
+    color: #2a2926;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif !important;
+    text-transform: none;
+}
+
+
+#header__nav a:hover .caret {
+    color: #999999;
+    border-top: 1px solid #602D51  ;
+    border-right: 1px solid #602D51  ;
+}
+
+#header__nav .flexMenu-popup > li {
+    font-size: 14px;
+}
+
+.fa-question-circle {
+    color: #602D51;
+}
+
+
+.header__logged .dropdown-menu > li > a {
+    padding: 10px;
+}
+
+.header__date {
+    color: #602D51;
+    font-weight: lighter;
+}
+
+.header__login > a, .header__logged > a,
+.header__search a, .header__date a {
+    color: #602D51;
+}
+
+@media (min-width: 970px) { a:hover 
+    text-decoration: none; {
+    color: #602D51;
+    }
+}
+
+.search__input-field {
+    border: 1px solid #602D51;
+}
+
+.header__help a {
+    color: #602D51;
+}
+
+#js-menu-trigger .cd-menu-icon,
+#js-menu-trigger.is-clicked .cd-menu-icon::before,
+#js-menu-trigger.is-clicked .cd-menu-icon::after {
+    background-color: #FFF;
+}
+
+.nav-sidebar__brand {
+    color:transparent;
+    background-color: #FFF;
+    padding-top: 31px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .header__search a {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+._has-top-separator {
+    border-top: 1px solid #FFF;
+}
+
+.caret {
+    border-top: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+}
+
+.item-has-children {
+    background: none;
+}
+
+
+@media only screen and (min-width: 992px) {
+    #header__nav,
+    .header--has-subscribe #header__nav {
+        left: 145px;
+    }
+}
+#header__nav .flexMenu-popup {
+    padding-top: 13px;
+    z-index: 100;
+}
+
+@media (min-width: 1200px) {
+    #header__nav .flexMenu-popup {
+        padding-top: 10px;
+    }
+
+    #header__nav .flexMenu-popup > li:first-child {
+        border-top: 0;
+        padding-top: 5px;
+    }
+
+    #header__nav .flexMenu-popup > li:last-child {
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #header__nav .dropdown-menu {
+        margin-top: 12px;
+    }
+}
+
+#header__nav .flexMenu-popup a:hover {
+    background-color: #602D51;
+    color: #FFF !important;
+}
+
+#header__nav .flexMenu-popup a:hover .caret {
+    border-color: #FFF !important;
+}
+
+#header__nav .flexMenu-popup .dropdown.open .caret {
+    border-color: #FFF;
+}
+
+#header__nav .flexMenu-popup .dropdown-menu a:hover {
+    background-color: #602D51;
+    color: #FFF !important;
+}
+
+#header__nav .flexMenu-popup li.open > a {
+    color: #FFF;
+}
+
+#header__nav .flexMenu-viewMore.active > a {
+    color: #602D51;
+}
+
+#js-menu-trigger .cd-menu-icon::before, #js-menu-trigger .cd-menu-icon:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFF;
+    left: 0;
+}
+
+
+
+.troubleshooting a {
+    color: #602D51;
+}
+
+.troubleshooting a:hover {
+    color: #FFF;
+}
+
+.troubleshooting a:active {
+    color: #FFF;
+}
+
+.modal-title {
+    font-weight: bold;
+    color: #fff;
+}
+
+/*------------------------------------*\
+#Dropdown Menu 
+\*------------------------------------*/    
+
+.header__logged .dropdown-menu {
+    margin-top: 0px;
+    border-radius: 0;
+    background-color: rgba(51, 51, 51, 0.8);
+    border: none;
+}
+
+.header__logged .dropdown-menu > li > a:hover, .header__logged .dropdown-menu > li > a:focus {
+    background-color: #333;
+    color: #FFF;
+    background-image: none;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.header__logged .dropdown-menu > li > a {
+    color: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Hambuger Menu
+\*------------------------------------*/
+
+
+#cd-lateral-nav {
+    background-color: #F2F2F2;
+}
+
+#cd-lateral-nav ul a {
+    display: block;
+    line-height: 2em;
+    color: #602D51;
+    font-family: 'Lato', sans-serif !important;
+    outline: none;
+}
+
+
+.no-touch #cd-lateral-nav a:hover {
+    color: #FFF;
+}
+
+
+#cd-lateral-nav .item-has-children > a {
+    position: relative;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #602D51;
+    padding-right: 30px;
+}
+
+.submenu-open {
+    background-color: #F2F2F2;
+}
+
+.account-sidebar__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px solid #602D51;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn-default {
+    background-color: #602D51;
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-color: #602D51;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-default:hover, .btn-default:focus {
+    background-color: #FFF;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.sorting-buttons__item .fa {
+    font-size: 25px;
+    color: #602D51;
+}
+
+.sorting-buttons__item .fa:hover {
+    color: #FFF;
+}
+
+.filter-block__title {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #602D51;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+#header__nav ul {
+    padding-top: 15px;
+    padding-left: 125px;
+}
+
+/*------------------------------------*\
+#Footer
+\*------------------------------------*/
+
+.footer {
+    background-color: #602D51;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px;
+    border-top: 1px solid #602D51;
+}
+
+
+.footer__copy {
+    color: #FFF;
+    text-indent: 0;
+    display: block;
+}
+
+.footer__logo-link svg {
+    width: 85px;
+    color: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+    
+
+.footer__links a:hover {
+    color: #EBEBEB;
+}
+
+@media (min-width: 768px) {
+    .footer__copy:before {
+        text-align: left;
+    }
+}
+
+.bg-MainRed {
+    background-color: #FFF;
+}
+
+.mobile-headline {
+    background-color: #602D51;
+}
+
+.footer-border-top {
+    font-size: 14px;
+    background-color: #FFF;
+    border-top: 1px solid #602D51;
+}
+
+.footer__links a {
+    margin: 0px 10px;
+    display: inline-block;
+    color: #FFF;
+}
+
+.footer-group__title {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    margin-bottom: 15px;
+    opacity: 0.5;
+    font-family: 'Lato', sans-serif;
+    color: #FFF;
+}
+
+.nav-sidebar__brand {
+    background-color: #602D51;
+    color: transparent;
+    font-family: 'Lato', sans-serif !important;
+    padding-top: 31px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+text {
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+/*------------------------------------*\
+#Programming
+\*------------------------------------*/
+
+.sorting-buttons__item .fa.active_link {
+    color: #602D51;
+}
+
+.sorting-buttons__item .fa:hover {
+    color: #FFF;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #FFF;
+}
+
+.sorting-buttons__item._mobile {
+    color: #602D51;
+}
+
+.load-more {
+    margin-bottom: 20px;
+}
+
+.pagination__container ul > li > a, .pagination__container ul > li > span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #545454;
+    border-color: -moz-use-text-color;
+    border-image: none;
+    border-style: none;
+    border-width: medium medium medium 0;
+    color: #FFF;
+    float: left;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    /* background-color: transparent; */
+    background-color: #545454;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+    color: #000;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 3;
+    color: #000;
+    background-color: #c6c6c6;
+    border-color: #ddd;
+}
+
+/*------------------------------------*\
+#Purchase
+\*------------------------------------*/
+
+.steps > li.active > span {
+    background-color: #602D51;
+}
+
+.steps > li.active > span:after {
+    border-left-color: #602D51;
+}
+
+.purchase__wrapper .btn-back {
+    top: 0;
+}
+
+.purchase__wrapper {
+    padding-top: 15px;
+}
+
+.btn-back {
+    border: 1px solid #602D51;
+}
+
+.btn-back:before {
+
+    border-top: 2px solid #602D51;
+    border-right: 2px solid #602D51;
+}
+
+.btn-back:hover,
+.btn-back:focus {
+
+    outline: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.btn-back:active,
+.btn-back.active {
+
+    outline: none;
+    border: 1px solid #FFF;
+}
+
+/*------------------------------------*\
+#Account page
+\*------------------------------------*/
+
+.login-form__header {
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 767px) {
+    .login-form__header {
+        background-color: #602D51;
+        padding: 15px;
+        text-align: center;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 767px) {
+    .account-info__title {
+        background-color: #602D51;
+        padding: 15px;
+        text-align: center;
+        color: #FFF;
+        font-family: 'Lato', sans-serif;
+        font-size: 21px;
+    }
+}
+
+.login-form__header__password h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.account-info__title h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.my-orders .empty {
+    padding: 50px;
+    display: block;
+}
+
+.player-block__buy-mobile {
+    padding-top: 14px;
+    padding-left: 10px;
+}
+
+.player-block__buy-mobile .btn {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+    .player-block__buy-mobile .btn {
+        width: auto;
+    }
+}
+
+.cd-main-content {
+    min-height: 100%;
+    position: relative;
+    background-color: #232323;
+}
+
+.form-field {
+    border-bottom: 1px solid #94989a;
+    padding: 20px 0;
+}
+
+.account-sidebar__item--selected a {
+    background-color: #282828;
+}
+
+.account-sidebar__item--selected a:hover {
+    background-color: #FFF;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-color: #602D51;
+}
+
+.account-info__title h2 {
+    color: #2A2926;
+}
+
+.account-sidebar__item a {
+    padding: 15px 10px;
+    background-color: #767676;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+.login-form__content input {
+    border: 1px solid #602D51;
+}
+
+.account-sidebar__item a:hover {
+    color: #fff;
+    background-color: #FFF;
+}
+
+.checkbox label::before {
+    background-color: #767676;
+}
+
+
+
+/*------------------------------------*\
+#VOD Series - Episode Page
+\*------------------------------------*/
+
+.episode__bgimg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FFF;
+}
+
+.upnext__itemName a {
+    color: #000;
+}
+
+.episode-info__season a {
+    color: #FFF;
+    display: inline-block;
+    position: relative;
+    padding-left: 17px;
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.episode-info__title {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+    margin-right: 130px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    line-height: 1.3;
+}
+
+.episode-info__data {
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+
+.upnext__itemNum {
+    color: #FFF;
+    font-size: 12px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.episode__bgimg:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.show-fade .show-fade__wrapper {
+    color: #FFF;
+}
+
+.episode__upnext {
+    color: #FFF;
+}
+
+.episode-info__social .social__title {
+    color: #FFF;
+}
+
+
+/*------------------------------------*\
+#Contact Us Background
+\*------------------------------------*/
+
+.ContactWidget {
+    background-color: #FFF;
+}
+
+.modal-content {
+    color: #3D3D3D;
+}
+
+/*------------------------------------*\
+#Player sidebar
+\*------------------------------------*/
+
+.player-sidebar__title {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.player-sidebar {
+    background-color: #602D51;
+}
+
+@media (max-width: 767px) {
+    .player-sidebar, .l-player__sidebar .player-sidebar {
+        background-color: #602D51;
+    }
+}
+
+a.morelink:focus, a.morelink:active {
+    text-decoration: none;
+    color: #602D51;
+}
+
+/*------------------------------------*\
+#Player Page
+\*------------------------------------*/
+
+._type-sidebar .movie-card__date {
+    font-size: 12px;
+}
+
+.player-block__data {
+    background-color: #FFF;
+}
+
+.player-block__title {
+    padding: 15px 60px 5px 10px;
+    background-color: transparent;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+.player-block__title {
+    margin-bottom: 6px;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 0 55px 0 0;
+}
+}
+
+@media (min-width: 992px) {
+.player-block__dataWrapper {
+    color: #FFF;
+    padding-bottom: 20px;
+}
+}
+
+@media (min-width: 768px) {
+div.upcoming__itemTitle {
+    font-size: 20px;
+    color: #fff;
+}
+}
+
+/*------------------------------------*\
+#Modal
+\*------------------------------------*/
+
+.modal-body {
+    color: #000;
+}
+
+button.bootbox-close-button.close[style="margin-top: -10px;"] {
+    margin-top: 0 !important;
+}
+
+.troubleshooting { 
+    color: #FFF;
+}
+
+/*------------------------------------*\
+#Video Feature Sub Page 
+\*------------------------------------*/
+
+.sorting-buttons__item .fa {
+    font-size: 25px;
+    color: #602D51;
+}    
+
+.checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 0;
+    top: 0px;
+    margin-left: -20px;
+    border-radius: 0px;
+    border: none;
+    background-color: #EBEBEB;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    border: 1px solid #602D51 !important;
+}
+
+.pagination__container ul > li > a, .pagination__container ul > li > span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #414141;
+    border-color: -moz-use-text-color;
+    border-image: none;
+    border-style: none;
+    border-width: medium medium medium 0;
+    color: #FFF;
+    float: left;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0px;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    font-size: 11px;
+    color: #602D51;
+}
+
+/*------------------------------------*\
+#Video Sliders
+\*------------------------------------*/
+
+.s4rw .videotile__title {
+      color: #602D51 !important;
+    
+}
+
+.s4rw .videotile__date {
+    color: #602D51 !important;
+    font-style: italic;
+}
+
+.movie-card__title.clampjs {
+    font-size: 16px !important;
+}
+
+.bg-DarkGrey,
+.bg-MainRed {
+    background-color: #FFF;
+}
+
+.movie-card__data {
+    margin: 15px 0;
+}
+
+.movie-card__title,
+.movie-card__date,
+.movie-card__text,
+._show-slider-nav .owl-nav .owl-prev:before,
+._show-slider-nav .owl-nav .owl-next:before,
+.title-block__name {
+    color: #2A2926;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.account-sidebar__item--selected a {
+    background-color: #602D51;
+    font-size: 16px;    
+}
+
+.account-sidebar__item--selected a:hover {
+    background-color: #FFF;
+    font-size: 16px;
+}
+
+.widget.programming {
+    background-color: #FFF;
+}
+
+.btn-default {
+    background-color: #602D51;
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-color: #602D51;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.filter-block__title {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #602D51;
+    color: #FFF;
+    font-weight: bold;
+}
+     
+.sorting-buttons__item .fa {
+    font-size: 25px;
+    color: #602D51;
+}    
+
+.movie-card__title {
+    text-transform: none !important;
+}
+
+
+.btn-primary:active, .btn-primary.active {
+    background-color: #602D51;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+.player-block__title h3 {
+    font-family: 'Lato', sans-serif !important;
+    color: #fff !important;
+}
+
+/*------------------------------------*\
+#Video Feature Sub Page Buttons
+\*------------------------------------*/
+
+.sorting-buttons__item .fa {
+    font-size: 25px;
+    color: #602D51;
+}    
+
+/*------------------------------------*\
+#Text Title
+\*------------------------------------*/
+
+.title {
+    color: #602D51;
+    font-size: 41px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+/*------------------------------------*\
+#Buy Video
+\*------------------------------------*/
+
+.buy-video {
+    background-color: #00CBD3;
+    white-space: normal;
+    padding: 10px 20px;
+    border-color: #FFF;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.buy-video:hover, .buy-video:focus {
+    background-color: #009499;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+
+/*------------------------------------*\
+#Login Page
+\*------------------------------------*/ 
+
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: #000 !important;
+    background-image: none !important;
+    color: #000 !important;
+}
+
+.cd-main-content {
+    min-height: 100%;
+    position: relative;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background-color: #7e3a6b;
+    outline: none;
+    border-color: #FFF;
+    color: #FFF;
+}
+
+@media (min-width: 970px) {
+.login-form__content .form-control:focus {
+    border-color: #602D51;
+}
+
+    }
+
+input:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 50px #EBEBEB !important;
+    -webkit-text-fill-color: #000 !important;
+    color: #FFF !important;
+}
+
+.form-control {
+    background-color: #EBEBEB;
+    border: 1px solid #602D51 !important;
+    color: #2A2926;
+    padding: 10px 12px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.login-form__side {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #EBEBEB;
+}
+
+.login-form__content .checkbox label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: -3px;
+    margin-left: -20px;
+    border-radius: 0px;
+    background-color: #EBEBEB;
+    border: 1px solid #602D51;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+
+.login-form__content .checkbox label::after {
+    display: inline-block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: -3px;
+    margin-left: -17px;
+    padding-left: 3px;
+    padding-top: 3px;
+    font-size: 17px;
+    color: #000;
+}
+
+/*------------------------------------*\
+#Terms of Use Page
+\*------------------------------------*/ 
+
+.TextWidget {
+    background-color: #FFF;
+}
+
+.TextWidget {
+    color: #2A2926;
+    font-family:  'Lato', sans-serif !important;
+}
+
+.title {
+    color: #2A2926;
+    font-size: 41px;
+    font-family:  'Lato', sans-serif !important;
+    font-weight: bold;
+}
+
+.TextWidget h2 {
+    font-size: 30px;
+    font-family:  'Lato', sans-serif !important;
+    color: #2A2926;
+        
+}
+
+.TextWidget h3 {
+    font-family: 'Lato', sans-serif !important;
+    color: #2A2926;
+}
+
+.TextWidget .static-page__content {
+    word-wrap: break-word;
+    color: #2A2926;
+}
+
+/*------------------------------------*\
+#Player Block
+\*------------------------------------*/ 
+
+
+@media (min-width: 992px) {
+.player-block__data {
+    padding-top: 30px;
+    background-color: rgba(0,0,0,0);
+    }
+
+}
+
+@media (min-width: 992px) {
+.player-block__dataWrapper {
+    color: rgba(0,0,0,0);
+    padding-bottom: 20px;
+    }
+}
+
+.player-block__title {
+    padding: 15px 60px 5px 10px;
+    background-color: transparent;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+.player-block__title {
+    margin-bottom: 6px;
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    padding: 0 55px 0 0;
+}
+}
+
+@media (min-width: 992px) {
+.player-block__dataWrapper {
+    color: #FFF;
+    padding-bottom: 20px;
+}
+}
+
+/*------------------------------------*\
+#Purchase Page
+\*------------------------------------*/ 
+
+
+.steps > li.active > span {
+    background-color: #602D51;
+}
+
+.steps > li.active > span {
+    color: #FFF;
+ 
+}
+
+.steps > li.active > span:after {
+    border-left-color: #602D51;
+}
+
+.title {
+    color: #2A2926;
+    font-size: 41px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.purchase__item {
+    padding: 20px;
+    background-color: #EBEBEB;
+}
+
+select.form-control {
+    background-color: #EBEBEB;
+}
+
+
+/*------------------------------------*\
+#Subscription
+\*------------------------------------*/ 
+
+.subscription__title {
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    margin-bottom: 22px;
+    color: #FFF;
+}
+
+.subscription__text {
+    font-size: 16px;
+    color: #FFF;
+}
+
+/*------------------------------------*\
+#Community Upload
+\*------------------------------------*/ 
+
+select.form-control {
+    background-color: #EBEBEB;
+}
+
+.form-control {
+    background-color: #EBEBEB;
+    border: none;
+    color: #2A2926;
+    padding: 10px 12px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif !important;    
+}
+
+/*------------------------------------*\
+#Forgot Password Form
+\*------------------------------------*/ 
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #EBEBEB;
+    color: #000;
+}
+
+/*------------------------------------*\
+#Video Sliders 
+\*------------------------------------*/
+
+.s4rw__header__title {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+ .s4rw .videotile__title {
+    color: #2A2926 !important; 
+    font-family: 'Lato', sans-serif !important;
+}
+    
+.s4rw .videotile__date {
+    color: #2A2926 !important;
+    font-style: italic;
+    font-family: 'Lato', sans-serif !important;
+}
+    
+.s4rw .videotile__text {
+        background-image: linear-gradient(180deg,#2A2926,#2A2926 100px) !important;
+}
+
+/*------------------------------------*\
+#Buttons
+\*------------------------------------*/
+
+.s4rw__header__link a {
+    background-color: #602D51 !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+.s4rw__header__link a:hover {
+    background-color: #FFF !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Footer 
+\*------------------------------------*/
+
+
+.footer-group__title {
+    opacity: 1.0 !important;
+}
+
+.footer-group__title {
+    color: #fff;
+    opacity: 1.0;
+}
+
+.footer-group__column a {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff !important;
+}
+
+.footer-group__column a:hover {
+    display: block;
+    margin-bottom: 5px;
+    color: #EBEBEB !important;
+}
+
+/*------------------------------------*\
+#Search Page Bkg
+\*------------------------------------*/
+
+.fw {
+    display: block;
+    width: 100%;
+    max-width: 1210px;
+    margin: auto;
+    color: #000;
+    font-size: 16px;
+    background-color: #FFF !important;
+    font-family: 'Lato', sans-serif !important;
+    overflow: hidden;
+}
+
+.fw__filter_panel {
+    width: 250px;
+    background-color: #FFF !important;
+    justify-content: stretch;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.fw__filter_panel__footer {
+    position: relative;
+    padding: 25px 0;
+    width: 100%;
+    background-color: #FFF !important;
+}
+
+.s4rw {
+    font-family: 'Lato', sans-serif !important;
+    width: 100%;
+}
+
+
+/*------------------------------------*\
+#Search Page Bkg - Filter
+\*------------------------------------*/
+
+.fw__filter_group {
+  background-color: #602D51;
+}
+
+.fw__filter_group__name {
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_group--open .fw__filter_group__name {
+    border-bottom: 4px solid #fff !important;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_panel__apply_filter--disabled {
+    background-color: #602D51 !important;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_group--open .fw__filter_group__name:before {
+    border-top-color: #602D51 !important;
+}
+
+.fw__filter_group--selection .fw__filter_group__name:after {
+    background-color: #602D51 !important;
+}
+
+.fw__filter_group__name {
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_panel__apply_filter {
+    background: #602D51 !important;
+    color: #fff;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_group__checkbox:hover+label:before {
+    background: #602D51 !important;
+    border-color: #602D51 !important;
+}
+
+.fw__filter_group__checkbox:checked+label:before {
+    background: #602D51 !important;
+    border-color: #602D51 !important;
+}
+
+.fw__filter_group--open .fw__filter_group__name {
+    border-bottom: 4px solid #602D51 !important;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__filter_group__expand svg, .fw__filter_group__toggle svg {
+      fill: #fff !important;
+}
+
+.fw__filter {
+    color: #602D51;
+    font-family: 'Lato', sans-serif !important;
+   }
+
+.fw__form-control {
+    background-color: #fafafa;
+    color: #602D51 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__input-search-icon svg {
+    fill: #602D51 !important;
+}
+
+.fw__layout-toggle-btn--active svg {
+    fill: #602D51 !important;
+}
+
+element.style {
+}
+.fw--lg .fw__filter_panel_heading, .fw--md .fw__filter_panel_heading, .fw--xl .fw__filter_panel_heading {
+    padding: 13px;
+}
+.fw__filter_panel_heading {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__select {
+   color: #602D51 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+.fw__input-search-icon svg {
+    fill:#602D51 !important;
+}
+
+
+.fw {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+
+.fw__form-control {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__form-control:focus {
+    border: 1px solid #602D51;
+    outline: none;
+}
+
+.fw__results-wrapper {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw__layout-toggle-btn--active {
+    background-color: #fff !important;
+    border-color: #602D51 !important;
+    cursor: default;
+}
+
+.fw__layout-toggle-btn {
+    border: 1px solid #602D51 !important;
+}
+
+.fw__layout-toggle-btn svg {
+    fill: #2A2926 !important;
+}
+
+.sw {
+    color: #2A2926 !important;
+    background-color: #FFF !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.fw .videotile__date {
+    color: #2A2926;
+    font-style: italic;
+}
+
+
+
+/*------------------------------------*\
+#Password Reset
+\*------------------------------------*/
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #EBEBEB;
+    color: #000;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Hamburger Menu
+\*------------------------------------*/
+
+#cd-lateral-nav ul a {
+    display: block;
+    line-height: 2em;
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+    outline: none;
+}
+#cd-lateral-nav a {
+    display: block;
+    line-height: 2em;
+    color: #FFF !important;
+    font-family: 'Lato', sans-serif !important;
+    outline: none;
+}
+
+
+.no-touch #cd-lateral-nav a:hover {
+    color: #999999 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Sub Menu
+\*------------------------------------*/
+
+.sub-menu {
+    background-color: #602D51 !important;
+    color: #B28509 !important;
+    font-family: 'Lato', sans-serif !important; 
+}
+
+.sub-menu__item.active a {
+    color: #ccc;
+    font-family: 'Lato', sans-serif !important; 
+}
+
+.sub-menu .nav > li > a:hover, .sub-menu .nav > li > a:focus {
+    background-color: transparent;
+    color: #ccc;
+    font-family: 'Lato', sans-serif !important; 
+}
+/*------------------------------------*\
+#Search Page
+\*------------------------------------*/
+
+.sw__title-heading {
+    font-family: 'Lato', sans-serif !important;
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.sw__input-search-icon svg {
+    fill: #602D51 !important;
+}
+
+.sw__pagination-item {
+    border: 1px solid #602D51 !important;
+}
+
+.sw .videotile__title {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.sw .videotile__text {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.sw .videotile__date {
+    color: #2A2926 !important;
+    font-style: italic;
+    font-family: 'Lato', sans-serif !important; 
+}
+
+.sw__layout-toggle-btn--active:hover {
+    background-color: #602D51 !important;
+    color: #fff;
+}
+
+.sw__layout-toggle-btn--active {
+    background-color: #602D51 !important;
+    border-color: #666;
+    cursor: default;
+}
+
+.sw__layout-toggle-btn:hover {
+    background-color: #EBEBEB !important;
+    color: #404040 !important;
+}
+
+.sw__pagination-item--active, .sw__pagination-item--active:hover {
+    background-color: #a6a6a6 !important;
+    color: #fff !important;
+}
+
+.sw__form-control {
+    background-color: transparent;
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+ }
+
+.sw__input-search-icon svg {
+    fill: #602D51 !important;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Video Tiles - Programming Page
+\*------------------------------------*/
+
+.fw .videotile__title {
+    color: #2A2926 !important;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+.fw .videotile__date {
+    color: #2A2926;
+    font-style: italic;
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*------------------------------------*\
+#Video Sliders - Arrow edit after %23
+\*------------------------------------*/
+
+.s4rw .swipr__wrapper .swipr__nav.swipr__next {
+
+background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 12 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.15 11.81l-9.53 9.35c-.46.45-1.2.44-1.66 0L.84 20.07c-.45-.45-.46-1.17 0-1.63L8.39 11 .84 3.56c-.46-.45-.45-1.18 0-1.63L1.96.84c.46-.45 1.2-.45 1.66 0l9.53 9.35c.47.44.46 1.18 0 1.63z' fill='%23602D51'/%3E%3C/svg%3E") !important
+
+}
+.s4rw .swipr__wrapper .swipr__nav.swipr__prev {
+background-image:  url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 18 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.845 11.816l9.533 9.346c.46.45 1.205.45 1.665 0l1.112-1.09c.46-.45.46-1.18.002-1.63L5.602 11l7.555-7.441a1.138 1.138 0 0 0-.002-1.63L12.043.838a1.194 1.194 0 0 0-1.665 0L.845 10.183a1.138 1.138 0 0 0 0 1.632z' fill='%23602D51'/%3E%3C/svg%3E") !important
+}
+
+.s4rw .swipr__wrapper .swipr__nav.swipr__next:hover {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 12 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.15 11.81l-9.53 9.35c-.46.45-1.2.44-1.66 0L.84 20.07c-.45-.45-.46-1.17 0-1.63L8.39 11 .84 3.56c-.46-.45-.45-1.18 0-1.63L1.96.84c.46-.45 1.2-.45 1.66 0l9.53 9.35c.47.44.46 1.18 0 1.63z' fill='%23FFF'/%3E%3C/svg%3E") !important;
+}
+
+.s4rw .swipr__wrapper .swipr__nav.swipr__prev:hover {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 18 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.845 11.816l9.533 9.346c.46.45 1.205.45 1.665 0l1.112-1.09c.46-.45.46-1.18.002-1.63L5.602 11l7.555-7.441a1.138 1.138 0 0 0-.002-1.63L12.043.838a1.194 1.194 0 0 0-1.665 0L.845 10.183a1.138 1.138 0 0 0 0 1.632z' fill='%23FFF'/%3E%3C/svg%3E") !important;
+}
+
+/*------------------------------------*\
+#SPORTS MANAGEMENT
+\*------------------------------------*/
+
+
+.schedule {
+    background-color: #D9D9D9;
+    padding: 10px 0px;
+}
+
+.schedule__mini-title {
+    font-size: 23px;
+    font-family: 'Lato', sans-serif;
+    color: #2A2926;
+}
+
+@media (min-width: 480px) {
+.games-selector__title {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #2A2926;
+}
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FFF
+}
+
+games-selector__btn .btn {
+    background-color: #602D51;
+}
+
+.schedule__title {
+    color: #2A2926;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.schedule__prev, .schedule__next {
+    background-color: #595959;
+
+}
+
+.schedule__prev:hover {
+    background-color: #602D51;
+}
+
+._not-active .week-item, ._not-active .week-item:hover {
+    background-color: #888888;
+}
+
+.week-item {
+    background-color: #a3a3a3;
+    padding: 8px 1px;
+    text-align: center;
+    color: #767676;
+}
+
+.match-table__title {
+    background-color: #602D51 !important;
+    font-family: 'Lato', sans-serif !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.match-table__row td:last-child {
+    background-color: #767676;
+}
+
+
+.btn-schedule-upcoming {
+    background-color: #602D51;
+    color: #fff;
+    width: 130px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.episode-info__title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.upnext__itemName a {
+    color: #fff;
+}
+
+/*------------------------------------*\
+Series
+\*------------------------------------*/
+
+
+.episode-info__title {
+    font-size: 14px;
+    color: #fff;
+}
+
+.upnext__itemName a {
+    color: #fff;
+}
+
+.episode-info__data {
+    color: #fff;
+}
+
+.episode-list__item a {
+    color: #2A2926;
+    display: block;
+}
